@@ -18,11 +18,11 @@ from dash.dependencies import Input, Output
 #Note that you will need to replace <YOUR_API_KEY> with your own API key for data.gov.in in order for the program to work.
 
 # API endpoint for data.gov.in
-url = 'https://api.data.gov.in/resource/f338e1f1-b527-454e-b0ee-089f3de3f0fa?api-key=579b464db66ec23bdd0000019c1bbfe2c0cc408879ac6ee4ae869d55&format=json'
+url = 'https://api.data.gov.in/resource/f338e1f1-b527-454e-b0ee-089f3de3f0fa?api-key=<your_api_key>&format=json'
 
 # API parameters
 params = {
-    'api-key': '579b464db66ec23bdd0000019c1bbfe2c0cc408879ac6ee4ae869d55 ', 
+    'api-key': 'yourapikey', 
     'format': 'json',
     'offset': 0,
     'limit': 100
