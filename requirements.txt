@@ -1,0 +1,18 @@
+jupyterlab
+jupyter-client
+jupyter-core
+jupyter-server
+jupyterlab-pygments
+jupyterlab-server
+matplotlib
+matplotlib-inline
+numpy
+pandas
+pyspark
+seaborn
+torch
+-U kaleido
+dash
+gunicorn
+
+
